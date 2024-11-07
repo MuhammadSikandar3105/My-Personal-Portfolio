@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 
 	<!-- js -->
 	<script src="js/jquery.min.js" defer></script>
@@ -138,13 +139,13 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-
+<div class="main-content">
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">Muhammad Sikandar</a>
 			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
 				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
+				<span class="oi oi-menu"></span>
 			</button>
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
@@ -259,7 +260,7 @@
 								</div>
 
 								<div class="skill-mf">
-									<p class="title-s">Skills</p>
+									<p class="title-s skills-f">Skills</p>
 									<span>JavaScript</span> <span class="pull-right">95%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 95%;"
@@ -298,8 +299,8 @@
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate">
 
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
+								
+								<h2 class="mb-4">About Me<h1 class="big">About</h1></h2>
 
 								<p>With over 8 months of experience as a website designer and full stack developer, I
 									focus on building dynamic, user-centered digital experiences. Specializing in
@@ -330,7 +331,7 @@
 									<span class="number" data-number="20">0</span> <span>+</span>
 									<span>&nbsp; Projects completed</span>
 								</p>
-								<p><a href="https://github.com/MuhammadSikandar3105"
+								<p class="github"><a href="https://github.com/MuhammadSikandar3105"
 										class="btn btn-primary py-3 px-3">GitHub</a></p>
 							</div>
 						</div>
@@ -361,7 +362,7 @@
 			<br>
 
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 ResumePad">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">Ongoing</span>
 						<h2>Independent Web Development Projects</h2>
@@ -377,7 +378,7 @@
 
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-md-6 ResumePad">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">March 2024 – August 2024</span>
 						<h2>Full Stack Web Development Certificate Program</h2>
@@ -404,7 +405,7 @@
 			<br>
 
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 ResumePad">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">2024-present</span>
 						<h2>BS Data Science</h2>
@@ -413,7 +414,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-md-6 ResumePad">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">2021-2023</span>
 						<h2>Intermediate in Computer Science</h2>
@@ -423,9 +424,9 @@
 				</div>
 			</div>
 
-			<div class="row justify-content-center mt-5">
+			<div class="row justify-content-center mt-5 CvM">
 				<div class="col-md-6 text-center ftco-animate">
-					<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+					<p><a href="#" class="btn btn-primary CvDown">Download CV</a></p>
 				</div>
 			</div>
 		</div>
@@ -435,15 +436,15 @@
 
 	<section class="ftco-section" id="project-section">
 		<div class="container">
-			<div class="row justify-content-center mb-5 pb-5">
+			<div class="row justify-content-center mb-sm-5 pb-sm-5 mb-0 pb-1">
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Projects</h1>
-					<h2 class="mb-4">Projects</h2>
+					<h2 class="mb-2 mb-sm-4">Projects</h2>
 					<p>Below are sample Full Stack Web Development projects using JavaScript, ReactJS, NodeJS, ExpressJS, and MongoDB.</p>
 				</div>
 			</div>
 			<div class="row d-flex">
-				<div class="col-md-4 d-flex ftco-animate">
+				<div class="col-md-4 d-flex ftco-animate px-0">
 					<div class="blog-entry justify-content-end">
 						<a href="https://wondrous-malabi-7f0b66.netlify.app/"
 							class="block-20 zoom-effect" style="background-image: url('images/projects/focus.PNG');">
@@ -456,7 +457,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex ftco-animate">
+				<div class="col-md-4 d-flex ftco-animate px-0">
 					<div class="blog-entry justify-content-end">
 						<a href="https://muhammadsikandar3105.github.io/Instagram/"
 							class="block-20 zoom-effect" style="background-image: url('images/projects/instagram.PNG');">
@@ -469,7 +470,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex ftco-animate">
+				<div class="col-md-4 d-flex ftco-animate px-0">
 					<div class="blog-entry">
 						<a href="https://muhammadsikandar3105.github.io/Natural_Website/"
 							class="block-20 zoom-effect" style="background-image: url('images/projects/natural\ project.PNG');">
@@ -486,7 +487,7 @@
 			<br>
 			<!-- added justify-content-center to center align the last two projects -->
 			<div class="row d-flex justify-content-center">
-				<div class="col-md-4 d-flex ftco-animate">
+				<div class="col-md-4 d-flex ftco-animate px-0">
 					<div class="blog-entry justify-content-end">
 						<a href="https://muhammadsikandar3105.github.io/foodies-project/"
 							class="block-20 zoom-effect" style="background-image: url('images/projects/foodiespro.PNG');">
@@ -499,7 +500,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex ftco-animate">
+				<div class="col-md-4 d-flex ftco-animate px-0">
 					<div class="blog-entry justify-content-end">
 						<a href="https://muhammadsikandar3105.github.io/textUtils-react/"
 							class="block-20 zoom-effect" style="background-image: url('images/projects/textutils.PNG');">
@@ -512,7 +513,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex ftco-animate">
+				<div class="col-md-4 d-flex ftco-animate px-0">
 					<div class="blog-entry justify-content-end">
 						<a href="https://muhammadsikandar3105.github.io/iDragonActionGame/"
 							class="block-20 zoom-effect" style="background-image: url('images/projects/idragon\ game.PNG');">
@@ -532,7 +533,7 @@
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
 		<div class="container">
 			<div class="row d-md-flex align-items-center">
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate px-0">
 					<div class="block-18">
 						<div class="text">
 							<strong class="number" data-number="7">0</strong>
@@ -540,7 +541,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate px-0">
 					<div class="block-18">
 						<div class="text">
 							<strong class="number" data-number="20">0</strong>
@@ -559,7 +560,7 @@
 					<div class="heading">
 						<h4>I enjoy solving complex web development challenges and creating innovative, user-friendly solutions</h4>
 						<br>
-						<p><a href="https://github.com/MuhammadSikandar3105" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						<p><a href="https://github.com/MuhammadSikandar3105" class="btn btn-primary py-sm-3 px-sm-5 py-2 px-3">GitHub</a></p>
 					</div>
 				</div>
 			</div>
@@ -571,52 +572,51 @@
 
 	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
 		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
+			<div class="row justify-content-center mb-sm-5 pb-sm-3 mb-1">
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Contact</h1>
-					<h2 class="mb-4">Contact Me</h2>
+					<h2 class="mb-sm-4 mb-2">Contact Me</h2>
 					<p>Below are the details to reach out to me!</p>
 				</div>
 			</div>
 
 			<div class="row d-flex contact-info mb-5">
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box p-4 text-center">
+				<div class="col-md-6 col-lg-3 col-6 d-flex ftco-animate">
+					<div class="align-self-stretch box p-sm-4 p-0 text-center">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-map-signs"></span>
 						</div>
-						<h3 class="mb-4">Address</h3>
+						<h3 class="mb-sm-4 mb-2">Address</h3>
 						<p>Rahim Yar Khan, Punjab, Pakistan</p>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box p-4 text-center">
+				<div class="col-md-6 col-lg-3 col-6 d-flex ftco-animate">
+					<div class="align-self-stretch box p-sm-4 p-0 text-center">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-phone2"></span>
 						</div>
-						<h3 class="mb-4">Contact Number</h3>
+						<h3 class="mb-sm-4 mb-2">Contact Number</h3>
 						<p><a href="tel://0101010101">+ 92 328 3105 642</a></p>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box p-4 text-center">
+				<div class="col-md-6 col-lg-3 col-6  d-flex ftco-animate">
+					<div class="align-self-stretch box p-sm-4 p-0 text-center">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-paper-plane"></span>
 						</div>
-						<h3 class="mb-4">Email Address</h3>
-						<p><a href="muhammadsikandar3105@gmail.com">muhammadsikandar3105@gmail.com</a></p>
+						<h3 class="mb-sm-4 mb-2">Email Address</h3>
+						<p>muhammadsikandar3105@gmail.com</p>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box p-4 text-center">
+				<div class="col-md-6 col-lg-3 col-6  d-flex ftco-animate">
+					<div class="align-self-stretch box p-sm-4 p-0 text-center">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-globe"></span>
 						</div>
-						<h3 class="mb-4">Download Resume</h3>
+						<h3 class="mb-sm-4 mb-2">Download Resume</h3>
 						<p><a href="#">resumelink</a></p>
 					</div>
-				</div>
-
+				</div>2
 				<div class="container">
 					<br>
 					<br>
@@ -647,6 +647,8 @@
 				stroke="#F96D00" />
 		</svg></div>
 
+</div>
+	
 </body>
 
 </html>

@@ -1,0 +1,177 @@
+.close-menu {
+    position: relative;
+    text-align: end;
+    display: none;
+}
+
+/* responsive for mobile devices */
+@media (max-width: 576px) {
+    body {
+        font-size: 0.785rem;
+        line-height: 1.7;
+        letter-spacing: 0.2px;
+    }
+    .CvDown{
+        padding: 0.8rem 1rem;
+        font-size: 12px;
+    }
+    .CvM{
+        margin-top: 2px !important;
+    }
+
+    .ftco-section {
+        padding: 1em 4px !important;
+    }
+
+    .ftco-about {
+        padding-top: 13em !important;
+    }
+
+    .main-content {
+        overflow: hidden;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .ftco-navbar-light.scrolled .navbar-brand {
+        font-size: 16px;
+    }
+
+    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+        font-size: 13px;
+    }
+
+    .show .close-menu {
+        display: block;
+    }
+
+    /* hero section */
+    .owl-carousel.home-slider .slider-item .slider-text .one-forth {
+        top: -170px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .subheading {
+        font-size: 12px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 26px;
+    }
+
+    #typing-animation {
+        font-size: 20px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .owl-carousel.home-slider {
+        height: 400px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .one-third {
+        height: 539px !important;
+        bottom: 110px;
+        left: 15px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text {
+        height: 650px;
+        text-align: left;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
+        opacity: .5;
+    }
+
+    .img-fluid .rounded {
+        border-radius: 50%;
+    }
+
+    .img-fluid {
+        max-width: 100px;
+    }
+
+    .about-img,
+    .about-info,
+    .skill-mf {
+        text-align: center;
+    }
+
+    .skills-f {
+        font-size: 18px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .heading-section {
+        text-align: center;
+    }
+
+    .heading-section h2 {
+        font-size: 28px;
+    }
+
+    .heading-section h1.big {
+        font-size: 20vw;
+    }
+
+    .counter-wrap {
+        justify-content: center;
+    }
+
+    .github {
+        text-align: center;
+    }
+
+    .big-4 {
+        font-size: 30px;
+    }
+
+    .resume-wrap .date {
+        font-size: 20px;
+    }
+
+    .resume-wrap h2 {
+        font-size: 19px;
+    }
+
+    .resume-wrap .position {
+        font-size: 11px;
+    }
+
+    .resume-wrap {
+        padding: 14px;
+    }
+
+    .ResumePad {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .blog-entry .text .heading{
+        font-size: 16px;
+    }
+    .ftco-hireme h2{
+        font-size: 26px;
+    }
+    h4, .h4{
+        font-size: 1rem;
+    }
+    .contact-section .box h3{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .show .close-menu {
+        display: block;
+    }
+}
