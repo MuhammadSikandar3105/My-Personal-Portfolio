@@ -6,16 +6,21 @@
 
 /* responsive for mobile devices */
 @media (max-width: 576px) {
+
+    html,
     body {
+        overflow-x: hidden;
         font-size: 0.785rem;
         line-height: 1.7;
         letter-spacing: 0.2px;
     }
-    .CvDown{
+
+    .CvDown {
         padding: 0.8rem 1rem;
         font-size: 12px;
     }
-    .CvM{
+
+    .CvM {
         margin-top: 2px !important;
     }
 
@@ -28,7 +33,6 @@
     }
 
     .main-content {
-        overflow: hidden;
         padding: 10px;
     }
 
@@ -121,7 +125,10 @@
     }
 
     .heading-section h1.big {
-        font-size: 20vw;
+        font-size: 14vw;
+        position: fixed;
+        inset: 0;
+        top: 15px;
     }
 
     .counter-wrap {
@@ -156,22 +163,460 @@
         padding-right: 0px;
         padding-left: 0px;
     }
-    .blog-entry .text .heading{
+
+    .blog-entry .text .heading {
         font-size: 16px;
     }
-    .ftco-hireme h2{
+
+    .ftco-hireme h2 {
         font-size: 26px;
     }
-    h4, .h4{
+
+    h4,
+    .h4 {
         font-size: 1rem;
     }
-    .contact-section .box h3{
-        font-size: 14px;
+
+    .contact-section .box h3 {
+        font-size: 11px;
+    }
+
+    .contact-section .box .icon {
+        width: 65px;
+        height: 65px;
+    }
+
+    .contact-section .box .icon span {
+        font-size: 20px;
+    }
+
+    #contact-section>div>div.row.d-flex.contact-info.mb-5>div:nth-child(3)>div>p {
+        display: block;
+        overflow: scroll;
+    }
+
+    #contact-section>div>div.row.d-flex.contact-info.mb-5>div.container>div>div>h2 {
+        font-size: 1.5rem;
+    }
+
+    .ftco-footer-social li a {
+        height: 40px;
+        width: 40px;
+    }
+
+    .ftco-footer-social li a span {
+        font-size: 18px;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        font-size: 0.895rem;
+        line-height: 1.7;
+        letter-spacing: 0.2px;
+    }
+
+    .CvDown {
+        padding: 0.8rem 1rem;
+        font-size: 12px;
+    }
+
+    .CvM {
+        margin-top: 2px !important;
+    }
+
+    .ftco-section {
+        padding: 1em 4px !important;
+    }
+
+    .ftco-about {
+        padding-top: 5em !important;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .ftco-navbar-light.scrolled .navbar-brand {
+        font-size: 18px;
+    }
+
+    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+        font-size: 14.5px;
+    }
+
     .show .close-menu {
         display: block;
+    }
+
+    /* hero section */
+    .owl-carousel.home-slider .slider-item .slider-text .one-forth {
+        top: -170px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .subheading {
+        font-size: 15px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 32px;
+    }
+
+    #typing-animation {
+        font-size: 22px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h2 {
+        font-size: 21px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .owl-carousel.home-slider {
+        height: 500px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .one-third {
+        height: 539px !important;
+        bottom: 110px;
+        left: 15px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text {
+        height: 690px;
+        /* text-align: left; */
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
+        opacity: .5;
+    }
+
+    .img-fluid .rounded {
+        border-radius: 50%;
+    }
+
+    .img-fluid {
+        max-width: 125px;
+    }
+
+    .about-img,
+    .about-info,
+    .skill-mf {
+        text-align: center;
+    }
+
+    .skills-f {
+        font-size: 19px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .heading-section {
+        text-align: center;
+    }
+
+    .heading-section h2 {
+        font-size: 32px;
+    }
+
+    .heading-section h1.big {
+        font-size: 16vw;
+        position: fixed;
+        inset: 0;
+        top: 15px;
+    }
+
+    .counter-wrap {
+        justify-content: center;
+    }
+
+    .github {
+        text-align: center;
+    }
+
+    .big-4 {
+        font-size: 30px;
+    }
+
+    .resume-wrap .date {
+        font-size: 24px;
+    }
+
+    .resume-wrap h2 {
+        font-size: 21px;
+    }
+
+    .resume-wrap .position {
+        font-size: 12px;
+    }
+
+    .resume-wrap {
+        padding: 14px;
+    }
+
+    .ResumePad {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .blog-entry .text .heading {
+        font-size: 18px;
+    }
+
+    .ftco-hireme h2 {
+        font-size: 28px;
+    }
+
+    h4,
+    .h4 {
+        font-size: 1rem;
+    }
+
+    .contact-section .box h3 {
+        font-size: 12px;
+    }
+
+    .contact-section .box .icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .contact-section .box .icon span {
+        font-size: 24px;
+    }
+
+    #contact-section>div>div.row.d-flex.contact-info.mb-5>div:nth-child(3)>div>p {
+        display: block;
+        overflow: scroll;
+    }
+
+    #contact-section>div>div.row.d-flex.contact-info.mb-5>div.container>div>div>h2 {
+        font-size: 1.5rem;
+    }
+
+    .ftco-footer-social li a {
+        height: 45px;
+        width: 45px;
+    }
+
+    .ftco-footer-social li a span {
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 992px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        font-size: 0.985rem;
+        line-height: 1.7;
+        letter-spacing: 0.2px;
+    }
+
+    .CvDown {
+        padding: 0.8rem 1rem;
+        font-size: 16px;
+    }
+
+    .CvM {
+        margin-top: 2px !important;
+    }
+
+    .ftco-section {
+        padding: 1em 4px !important;
+    }
+
+    .ftco-about {
+        padding-top: 5em !important;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .ftco-navbar-light.scrolled .navbar-brand {
+        font-size: 20px;
+    }
+
+    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+        font-size: 15.5px;
+    }
+
+    .show .close-menu {
+        display: block;
+    }
+
+    /* hero section */
+    .owl-carousel.home-slider .slider-item .slider-text .one-forth {
+        top: -170px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .subheading {
+        font-size: 16px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 34px;
+    }
+
+    #typing-animation {
+        font-size: 24px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h2 {
+        font-size: 23px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .owl-carousel.home-slider {
+        height: 550px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .one-third {
+        width: 70%;
+        height: 539px !important;
+        bottom: 110px;
+        left: 15px;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text {
+        height: 690px;
+        /* text-align: left; */
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
+        opacity: .5;
+    }
+
+    .img-fluid .rounded {
+        border-radius: 50%;
+    }
+
+    .img-fluid {
+        max-width: 135px;
+    }
+
+    .about-img,
+    .about-info,
+    .skill-mf {
+        text-align: center;
+    }
+
+    .skills-f {
+        font-size: 19px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .heading-section {
+        text-align: center;
+    }
+
+    .heading-section h2 {
+        font-size: 34px;
+    }
+
+    .heading-section h1.big {
+        font-size: 12vw;
+        position: fixed;
+        inset: 0;
+        top: 15px;
+    }
+
+    .counter-wrap {
+        justify-content: center;
+    }
+
+    .github {
+        text-align: center;
+    }
+
+    .big-4 {
+        font-size: 30px;
+    }
+
+    .resume-wrap .date {
+        font-size: 24px;
+    }
+
+    .resume-wrap h2 {
+        font-size: 21px;
+    }
+
+    .resume-wrap .position {
+        font-size: 12px;
+    }
+
+    .resume-wrap {
+        padding: 14px;
+    }
+
+    .ResumePad {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .blog-entry .text .heading {
+        font-size: 18px;
+    }
+
+    .ftco-hireme h2 {
+        font-size: 34px;
+    }
+
+    h4,
+    .h4 {
+        font-size: 1.2rem;
+    }
+
+    .contact-section .box h3 {
+        font-size: 12px;
+    }
+
+    .contact-section .box .icon {
+        width: 85px;
+        height: 85px;
+    }
+
+    .contact-section .box .icon span {
+        font-size: 28px;
+    }
+
+
+    #contact-section>div>div.row.d-flex.contact-info.mb-5>div.container>div>div>h2 {
+        font-size: 1.5rem;
+    }
+
+    .ftco-footer-social li a {
+        height: 50px;
+        width: 50px;
+    }
+
+    .ftco-footer-social li a span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .owl-carousel.home-slider .slider-item .slider-text .one-third {
+        width: 60%;
+        height: 770px !important;
     }
 }
